@@ -1,0 +1,115 @@
+.heading{
+    background-color: crimson;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+}
+.topnav{
+    margin:0px 50px 100px 80%;
+    display: flex;
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+.topnav a{
+    padding: 10%  5%;
+    color: black;
+    display: block;
+    font-size: 30px;
+}
+.topnav a:hover{
+    background: yellow;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    margin: 50px 10px 70px 20px;
+    text-align: center;
+}
+.backgrnd{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.sidenav{
+    height:100vh;
+    width: 15%;
+    padding:15px;
+    text-align: left;
+    display: block;
+    font-size: 30px;
+    background-color:white;
+}
+.sidenav a{
+    color: green;
+    display: flex;
+    padding: 30%;
+    text-decoration: none;
+    font-size: 30px;
+
+
+}
+.header{
+    padding: 15px;
+}
+.sidenav a:hover{
+    background: whitesmoke;
+}
+.section{
+    height:100vh;
+    width: 100%;
+    display: flex;
+}
+.mycontent{
+    width:85%;
+    height:100vh;
+    padding:10px;
+    display: block; 
+ 
+}
+.cardcontent{
+    margin:10px;
+    height:200px;
+    width:45%;
+    display:flex;
+    box-shadow:0px 4px 8px rgb(207, 203, 207);
+}
+.cardcontent:hover{
+
+    box-shadow:0px 4px 8px rgb(146, 132, 146);
+}
+.piccontent{
+    width:60%;
+    padding:10px;
+    text-align:center;
+}
+.searchnav{
+    width: 100%;
+    height: 6vh;
+}
+.inputsearch{
+    font-size: 30px;
+    height: 3vh;
+    margin-left: 50%;
+    width: 20%;
+    border-radius: 30px;
+    
+}
+.pic1{
+    width: 30%;   
+}
+.cards{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    display: flex;
+   
+}
+.cardcontent{
+    margin: 50px;
+    height: 100px;
+    width: 25%;
+    display: flex;
+    box-shadow: brown;
+}
