@@ -1,21 +1,28 @@
 .heading{
     background-color: crimson;
     width: 100%;
-    height: 7vh;
+    height: 10vh;
     display: flex;
+    position: absolute;
+
+
 }
 .topnav{
-    margin:0px 50px 100px 80%;
+    margin:0px 50px 400px 80%;
     display: flex;
     text-align: center;
     float: left;
     width: 50%;
+    
 }
 .topnav a{
-    padding: 10%  5%;
-    color: black;
-    display: block;
-    font-size: 30px;
+    display:block;
+    color: white;
+    text-decoration:none;text-align: center;
+    padding:15px 10px;
+    font-size: 15px;
+    height:50px;
+
 }
 .topnav a:hover{
     background: yellow;
@@ -56,10 +63,11 @@
 .sidenav a:hover{
     background: whitesmoke;
 }
-.section{
+.all{
     height:100vh;
     width: 100%;
     display: flex;
+    margin-top: 15px;
 }
 .mycontent{
     width:85%;
@@ -70,7 +78,7 @@
 }
 .cardcontent{
     margin:10px;
-    height:200px;
+    height:400px;
     width:45%;
     display:flex;
     box-shadow:0px 4px 8px rgb(207, 203, 207);
@@ -81,7 +89,7 @@
 }
 .piccontent{
     width:60%;
-    padding:10px;
+    padding:30px;
     text-align:center;
 }
 .searchnav{
@@ -106,10 +114,23 @@
     display: flex;
    
 }
-.cardcontent{
+/* .cardcontent{
     margin: 50px;
     height: 100px;
-    width: 25%;
+    width: 45%;
     display: flex;
     box-shadow: brown;
+} */
+.Modalnav{
+    display: none; 
 }
+.cards1{
+display: flex;
+}
+.cards2{
+display: flex;
+}
+/* .cardcontent1{
+    padding: 20px;
+    margin: 20px;
+} */
